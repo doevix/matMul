@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-double dotProduct(double *, double *, size_t);
 double **matMul(double **, double**, size_t, size_t, size_t, size_t);
 void printMat(double**, size_t, size_t);
 double *inputFloatList(char *, size_t *);
